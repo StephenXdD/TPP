@@ -1,0 +1,10 @@
+TYPE TMonth = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December')
+
+TYPE
+    TStudent
+        DECLARE name : STRING
+        DECLARE age : INTEGER
+        DECLARE gender : STRING
+        DECLARE fav_sub : STRING
+        DECLARE vid_online : BOOLEAN
+    ENDTYPE
